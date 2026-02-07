@@ -114,4 +114,3 @@ updateLEDs([0, 0, 100], [100, 0, 0]);
 
 // 2. Start the monitoring loop (every 3 seconds)
 Timer.set(CONFIG.pollingInterval * 1000, true, checkPower);
-
